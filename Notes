@@ -1,0 +1,35 @@
+02/02/2023
+Inez Derkx
+
+
+Alcohol variables:
+- Drink today (binary)
+- Drink yesterday (binary)
+- How many drinks per day (character)
+- Blood alcohol content (numeric)
+
+Computed alcohol variables:
+- Drinker (binary)
+- Alcohol frequency (categorical)
+
+Variable drinker includes 158 individuals. For dead individuals, those whose cause of death mentioned 'alcohol' are treated as drinkers and 
+all other deaths are treated as non-drinkers (the "conservative" approach). For alive individuals, all those whose answer to any of the alcohol variables 
+is not positive (yes/a number of drinks per day/BAC). 
+
+Variable alcohol frequency is a categorized version of 'how many drinks per day' and includes 113 individuals, all who are currently alive. For dead
+individuals, the information is not available. The levels of the variable include: 0, 'one or less', 'two or less', 'three or less', 'four or less', and
+'more than four', a.k.a. <1, 1-2, 2-3, 3-4, 4+. Despite the naming of the levels, they are not cumulative. 
+
+A Basta was performed using both these variables as covariates separately. The basta model with alcohol frequency as covariate did not converge,
+likely because it does not include any individuals who have died as the model does not accept NAs in its covariates. 
+
+The basta model with drinker as covariate converges and gives drinkers a lower life estimate than non-drinkers by about 15 years. Drinkers' survival curve
+is also shaped differently and falls more quickly than the non-drinkers curve. Lastly, drinkers seemt o have less variation compared to non-drinkers in
+age-specific survival and mortality. 
+
+NOTE: these two models have both been ran with the model in which all dead people who died between 2015-2017 are assumed to have died in 2015, because
+using this dataset in thre previous model led to convergence. 
+
+NOTE: some individuals are born and die in the same year. Due to the model, they have to be changed. As such, their death year is extended with + 1 and
+as a result they then have 1 data point. For example, I am born in 2020 February and die in November. In the dataset, I am born in November and captured
+in 2021. So I will have 1 data point in 2021. This is because basta does not accept recaptures in the same year as the birth year. 
