@@ -18,7 +18,7 @@ is not positive (yes/a number of drinks per day/BAC).
 
 Variable alcohol frequency is a categorized version of 'how many drinks per day' and includes 113 individuals, all who are currently alive. For dead
 individuals, the information is not available. The levels of the variable include: 0, 'one or less', 'two or less', 'three or less', 'four or less', and
-'more than four', a.k.a. <1, 1-2, 2-3, 3-4, 4+. Despite the naming of the levels, they are not cumulative. 
+'more than four', a.k.a. 0, <1, 1-2, 2-3, 3-4, 4+. Despite the naming of the levels, they are not cumulative. 
 
 A Basta was performed using both these variables as covariates separately. The basta model with alcohol frequency as covariate did not converge,
 likely because it does not include any individuals who have died as the model does not accept NAs in its covariates. 
@@ -33,3 +33,50 @@ using this dataset in thre previous model led to convergence.
 NOTE: some individuals are born and die in the same year. Due to the model, they have to be changed. As such, their death year is extended with + 1 and
 as a result they then have 1 data point. For example, I am born in 2020 February and die in November. In the dataset, I am born in November and captured
 in 2021. So I will have 1 data point in 2021. This is because basta does not accept recaptures in the same year as the birth year. 
+----
+
+
+
+03/02/2023 - update
+Inez Derkx
+
+I updated the model with alcohol frequency. Firstly, I performed another permutation test to create a new sample with randomly distributed death years 
+for all 14 individuals who died between 2014 and 2018. Using this sample I re-performed the model, again with only individuals alive as only those gave
+the necessary information. This model included 113 individuals and a covariate with 6 levels as before. The model converged and accurately shows a higher
+probability of survival for individuals who drink less and a higher mortality for those who drink more. The y-axis for the mortality curve goes up to 3 -
+what does this mean? The x-axis for both also goes up to 150 years. Is this because there is not enough death data?
+
+Mean/max/min birth years for the categories:
+0 per day: 1999 / 2018 / 1931
+One or less: 2001 / 2017 / 1955
+Two or less: 1999 / 2017 / 1959
+Three or less: 1982 / 2009 / 1940
+Four or less: 1982 / 2006 / 1959
+More than four: 1984 / 1999 / 1960
+
+So, there is somewhat of an age-specific effect > you can split the categories in 2 >  Two or less are all younger on average & more than two are older. 
+Is this what is creating the curve? The fact that younger individuals are drinking less?
+----
+
+
+
+07/02/2023 - update
+
+Model to examine parents' drinking behaviour as covariate will not work well for the following reasons:
+- None of the children under 15 have parents who dont drink, apart from 1 individual who is dead (and classified as 'non-drinker' because he did not die
+of alcohol) and 1 individual who is alive and who has been observed drinking (but by us, so not a valid data point). 
+- All covariates being equal wont lead to a good model 
+- Drinking behaviour by parents in frequency will be skewed as not all individuals have two known parents. 
+- How to construct a potential composite measure? > sum of both parents' drinking frequency?
+- Composite measure based on frequency only gives info for parents who are alive both > will give a biased and smaller sample
+
+So, how can we look at parents' drinking frequency as an influential factor for childrens drinking?
+
+
+
+
+
+
+
+
+
