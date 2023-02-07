@@ -72,6 +72,20 @@ of alcohol) and 1 individual who is alive and who has been observed drinking (bu
 
 So, how can we look at parents' drinking frequency as an influential factor for childrens drinking?
 
+Chisquare test of independence? 
+Since we have two categorical variables (child alive/not alive & drinking frequency in cats), we can perform the
+chi2 test. However, when looking closer at the data we have a few missing values. These inhibit us from actually performing the test, since "If x is a 
+matrix with at least two rows and columns, it is taken as a two-dimensional contingency table: the entries of x must be non-negative integers. 
+Otherwise, x and y must be vectors or factors of the same length; cases with missing values are removed, the objects are coerced to factors, and the 
+contingency table is computed from these." >>> So, with missing values not possible. However, deleting them will also delete important info, can't do that.
+
+Regression analysis?
+Again, the issue of missing values > trade-off: less data to include or no analysis?
+
+
+
+
+
 
 
 
