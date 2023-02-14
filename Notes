@@ -83,7 +83,53 @@ Regression analysis?
 Again, the issue of missing values > trade-off: less data to include or no analysis?
 
 
+10/02/23 - update
 
+BaSTA performed with drinker/no drinker, where all kids who died from cold are coded as drinker. This leads to a near 50 percent chance of dying in 
+the first year of birth for drinkers, compared to more or less 35 for non-drinkers.
+Clear differences shown when looking at life expectancy. There's about a general ten year difference between the two groups in the beginning, which goes
+down to about 7, and slowly increases to around 10 again.
+
+
+
+
+13/02/23 - update
+
+Notes after Thursday's presentation:
+- Look at influence of parents’ drinking separately:
+    - Mother > potentially due to breastfeeding
+    - Father > no necessary expected effects
+- Use age-specific fertility and check with effect of
+    - Mother drinking y/n
+    - Father drinking y/n
+- Reproductive life of woman check kids by age and see if drinking yes/no has an effect
+- Check inclusive drinking behaviour of dead individuals (code is done, run basta only)
+
+Performed:
+Only mothers' drinking behaviour (composite measure)
+- Includes 30 individuals, 24 alive and 6 dead, 13 female and 17 male. 
+- Of kids alive, most moms belong to category 2 (equals two or less), then cat. 3 and 1. 
+- Of kids dead, no mom drinks 1. 5 moms drink 2 and 1 mom drinks 3. 
+
+
+Only fathers' drinking behaviour (composite measure
+- Includes 55 individuals, 46 alive and 9 dead, 27 females and 28 males. 
+- Of kids alive, most fathers drink 3 drinks, then 5, 1, 2, 4. 
+- Of kids dead, most fathers drink 5 drinks, then 3 and 2. 
+
+Basta figures show no direct linear progression in mortality and survival curve and drinking behaviour by either the mother or the father. 
+Histograms of the birthyears of the two samples used show a similar meanmedian birth year (2015+-,2015) and the same min/max birth years (2007/2021). 
+Both are slightly skewed, with more individuals being born later
+
+
+Age-specific fertility
+
+So we want to find out whether drinking behaviour of men and drinking behaviour of women is in someway related to fertility. In order to know this, 
+we have to compute age-specific fertility > so that the effect we are seeing is not older > more children + older > more drinking = more children = more
+drinking. 
+
+How to go about this:
+- Nr of alive children per individual
 
 
 
