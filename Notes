@@ -132,6 +132,18 @@ How to go about this:
 - Nr of alive children per individual
 
 
+14/02/23
+
+Contacted Colchero about the "CalcFert" option in the package. Other option would be to look at "own children method" to have an idea of how the nr. of
+children of an individual interacts with drinking without having age as a confounder. 
+
+The linear regressions conducted for males and females separately so far show an effect of age for males but not for females on the nr. of children who
+are alive, but no effect of drinking (yes/no) for either. The sample includes all individuals above 20, rather than all individuals who have children. 
+This is the cutoff point because the earliest age of reproduction listed is 23, but we know of individuals who are younger and have had children who
+died. So it is definitely younger than 23.
+
+The person who passed away is Narayen, due to burn wounds (40%) on his body. Pictures are in Sudarshan's email. His status and details still have to be
+changed in the dataset, this should be done tomorrow. 
 
 
 
