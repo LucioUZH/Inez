@@ -132,7 +132,7 @@ How to go about this:
 - Nr of alive children per individual
 
 
-14/02/23
+14/02/23 - update
 
 Contacted Colchero about the "CalcFert" option in the package. Other option would be to look at "own children method" to have an idea of how the nr. of
 children of an individual interacts with drinking without having age as a confounder. 
@@ -147,6 +147,24 @@ changed in the dataset, this should be done tomorrow.
 
 
 
+16/02/23 - update
+
+Important to come back to the beginning: what BASIC INFORMATION do I want to know?
+> blood alcohol content: 17 individuals who werent sober. 8 of those were drunk (out of a sample of 36) a few days before a festival...
+> How often do individuals drink? Most people drink at least 1 glass per day (64%), 37% of sample consumed more than two glasses per day. 14% more than three
+glasses per day. 
+> Why do people drink?
+
+What would we expect (if data were perfect representation of reality)?
+> Individuals who drink live shorter than individuals who don't drink
+> Individuals who drink more live shorter than individuals who drink less
+> Individuals who drink (more) have less children than individuals who don't (or drink less)
+> Individuals who drink (more) experience higher rates of child mortality than individuals who don't (or drink less)
+> 
+
+
+
+ASFR > need to know, per year between 2018 and 2022, which age category women belonged to and how many babies were born that year per age_category. 
 
 
 
