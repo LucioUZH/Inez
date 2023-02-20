@@ -160,13 +160,23 @@ What would we expect (if data were perfect representation of reality)?
 > Individuals who drink more live shorter than individuals who drink less
 > Individuals who drink (more) have less children than individuals who don't (or drink less)
 > Individuals who drink (more) experience higher rates of child mortality than individuals who don't (or drink less)
-> 
-
-
 
 ASFR > need to know, per year between 2018 and 2022, which age category women belonged to and how many babies were born that year per age_category. 
 
 
+20/02/23 - update
+
+Choosing plots/results for the paper
+
+Descriptives:
+- Who drinks? Drinking yes/no by sex
+- How often do they drink? Drinking frequency per day
+- Why do they drink? Drinking rationales
+- Was it measured? Blood alcohol content (explain no correlations sex/age)
+
+Mortality and survival explained:
+- Sex basta
+- Alcohol (binary) basta
 
 
 
