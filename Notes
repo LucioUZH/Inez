@@ -187,19 +187,21 @@ Mortality and survival explained:
 sample and then look at parents' drinking behaviour and plot only those under 15?
 
 Notes from meeting with Lucio:
-- Drinking behaviour: histogram of yes/no drinking by age (potentially divide children vs. adults)
-- Wilcoxon test for sex & alcohol frequency (with multiple levels)
-- Proportion test for sex & drinker (perhaps separately for those alive and for the whole sample)
-- Basta without any covariates, calculate life expectancy (at birth, at 15, at 50)
-- Check life expectancy for males/females separately at birth, 15, and 50
-- For Basta with drinking (0/1): children (alive) under 3 should be coded as non-drinker (REMEMBER THIS ASSUMPTION!!)
-- For papers' potential supplementary material, add the inclusive drinker basta as well
+X Drinking behaviour: histogram of yes/no drinking by age (potentially divide children vs. adults)
+X Wilcoxon test for sex & alcohol frequency (with multiple levels)
+X Proportion test for sex & drinker (perhaps separately for those alive and for the whole sample)
+X Basta without any covariates, calculate life expectancy (at birth, at 15, at 50)
+X Check life expectancy for males/females separately at birth, 15, and 50
+X For Basta with drinking (0/1): children (alive) under 3 should be coded as non-drinker (REMEMBER THIS ASSUMPTION!!)
+X For papers' potential supplementary material, add the inclusive drinker basta as well
+X MAKE SURE TO KNOW WHO ARE THE NON-DRINKERS AND WHY THEN THAT THERE ARE NO PARENT DRINKERS APART FROM DEAD ONES > CHECK the SI paper
 - Is there an effect of sex in the basta on drinker yes/no? > check by making 4 levels (M-1, M-0, F-1, F-0) > do we see a major difference between F & M?
-- MAKE SURE TO KNOW WHO ARE THE NON-DRINKERS AND WHY THEN THAT THERE ARE NO PARENT DRINKERS APART FROM DEAD ONES
 - Parents' drinking behaviour: divide > below three & three and above (< 3 & >= 3) for 'light' vs. 'heavy' drinking
 - Contact Colchero > Can we get the points of the mortality curve or does the calc mort function help in this potentially?
 - Perfrom a Poisson GLM
-- 
+
+
+22/02/23
 
 
 
