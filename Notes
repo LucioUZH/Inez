@@ -195,10 +195,11 @@ X Check life expectancy for males/females separately at birth, 15, and 50
 X For Basta with drinking (0/1): children (alive) under 3 should be coded as non-drinker (REMEMBER THIS ASSUMPTION!!)
 X For papers' potential supplementary material, add the inclusive drinker basta as well
 X MAKE SURE TO KNOW WHO ARE THE NON-DRINKERS AND WHY THEN THAT THERE ARE NO PARENT DRINKERS APART FROM DEAD ONES > CHECK the SI paper
-- Is there an effect of sex in the basta on drinker yes/no? > check by making 4 levels (M-1, M-0, F-1, F-0) > do we see a major difference between F & M?
-- Parents' drinking behaviour: divide > below three & three and above (< 3 & >= 3) for 'light' vs. 'heavy' drinking
-- Contact Colchero > Can we get the points of the mortality curve or does the calc mort function help in this potentially?
+X Is there an effect of sex in the basta on drinker yes/no? > check by making 4 levels (M-1, M-0, F-1, F-0) > do we see a major difference between F & M?
+X Parents' drinking behaviour: divide > below three & three and above (< 3 & >= 3) for 'light' vs. 'heavy' drinking
+X Can we get the points of the mortality curve or does the calc mort function help in this potentially?
 - Perfrom a Poisson GLM
+
 
 
 22/02/23
