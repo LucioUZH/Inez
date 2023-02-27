@@ -198,12 +198,16 @@ X MAKE SURE TO KNOW WHO ARE THE NON-DRINKERS AND WHY THEN THAT THERE ARE NO PARE
 X Is there an effect of sex in the basta on drinker yes/no? > check by making 4 levels (M-1, M-0, F-1, F-0) > do we see a major difference between F & M?
 X Parents' drinking behaviour: divide > below three & three and above (< 3 & >= 3) for 'light' vs. 'heavy' drinking
 X Can we get the points of the mortality curve or does the calc mort function help in this potentially?
-- Perfrom a Poisson GLM
+X Perfrom a Poisson GLM
 
 
 
-22/02/23
+27/02/23
 
-
+Performing Poisson GLMs
+The Poisson GLM seems a better fit than the other models, given the distribution of the dependent variable. THere is some effect of drinking on male
+children alive, but not on females' children alive. This is for individuals above 20, some of which dont have children. Is it possible that not having
+children here is impacting the relationship between alcohol/kids? Even if age is also included and already contributes to a great deal of variance?
+Perhaps we can add being married as a control? 
 
 
