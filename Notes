@@ -210,4 +210,28 @@ children alive, but not on females' children alive. This is for individuals abov
 children here is impacting the relationship between alcohol/kids? Even if age is also included and already contributes to a great deal of variance?
 Perhaps we can add being married as a control? 
 
+Go back to the main question: does alcohol use have an influence on fertility? Why would it be different for males than for females?
 
+> There are a couple of people who said, in response to frequency Q, that they don't drink, but they have indicated otherwise that they do drink. What
+to do in this case?
+> Non-drinkers in raute_fert_drink$alcohol_freq accidentally coded as "light" > make sure to change in analyses! CHECKED, its okay
+
+> Probably the non-drinkers have higher initial life expectancy in the graph that includes children under 3 coded as drinking = 0, because you have a lot
+of young kids who are dying and who are classified as non-drinking, whilst you don't have any younger kids who die of drinking. So the initial graph, 
+even the one that splits drinkers and non-drinkers, under the age of 5 is more so a joint trend of mortality and not necessarily accurate of the pattern
+that we observe for drinking vs. non-drinking. 
+
+
+01/03/23
+
+To do today:
+- Examine the use of Bayesian modelling to look at fertility x alcohol 
+- Examine other ways in which we can look at this relationship > e.g. from the death register
+        - Perhaps the part about fertility and child mortality should be joined > your children dying equals fecundity decreasing
+        - Found that there is a more prominent relationship between child mortality and father drinking rather than mother drinking: children with a 
+          father who is a heavy drinker live less long than children with a father who is a light drinker. Children with a mother who is a heavy drinker do 
+          not differ very much in life expectancy compared to children with a mother who is a light drinker. 
+        - Examine this relationship more directly in a model that includes sex as a term
+X Use children for whom we know both parents' drinking behaviour > is joint drinking behaviour important? > BASTA TAKES VERY VERY LONG
+- Can we perform some sort of test that indicates significance in these differences between male/female and child mortality?
+X Is children's drinking behaviour predicted by parents' drinking behaviour?
