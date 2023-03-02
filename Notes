@@ -235,3 +235,13 @@ To do today:
 X Use children for whom we know both parents' drinking behaviour > is joint drinking behaviour important? > BASTA TAKES VERY VERY LONG
 - Can we perform some sort of test that indicates significance in these differences between male/female and child mortality?
 X Is children's drinking behaviour predicted by parents' drinking behaviour?
+
+
+02/03/23
+
+Which model should one use if the odds of each of the ordered levels of a categorical dependent variable are not equal, but there is a hierarchy in the
+variable's level (e.g., from low to high)?
+
+- Does not seem to be the case thAT childrens' drinking and parents' drinking are somehow related to one another
+- If we look not at mortality, but at number of births in the last five years (given that individuals have a partner), is it linked to drinking?
+- If not, what else? Combined age? Age of mother? Age of father? Combined drinking?
