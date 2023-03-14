@@ -296,16 +296,28 @@ Greaves & Kramer (2007) > https://anthrosource.onlinelibrary.wiley.com/doi/pdf/1
 
 Notes from meeting:
 
-- Graph for females: drinking vs. non-drinking
-- Graph for males: drinking vs. non-drinking
+- Graph for females: drinking vs. non-drinking > wont work anymore
+- Graph for males: drinking vs. non-drinking > wont work anymore
 
 
 
+14/03/23
 
+Multinomial modelling > either nominal or ordinal. For nominal response a variable can possess a value from predefined finite set and these values are 
+not ordered. For instance a variable color can be either green or blue or green. In machine learning the problem is often referred to as a 
+classification. In contrast to nominal case, for ordinal repose variable the set of values has the relative ordering. For example, a variable size 
+can be small < middle < large. 
 
+From other source: This is the regression you use when you have an unordered categorical variable outcome or an ordered categorical variable outcome 
+that failed the Brant test.
 
+> For our case, we need an ordinal model, because drinking not/light/heavy has an order, although being alive or dead does not. 
+> The ordinal model is a proportional odds model 
 
-
+STOP > MAJOR MISTAKE MADE 
+assumed the MakeCovMat function in Basta would align my 'id_2014' to its 'ID' variable, i.e. that the first variable was
+simply considered the ID variable, but it didnt link them in the end with the right covariates (super weird)! Somehow this random pattern did produce 
+slightly normal results, whereas now it doesnt... 
 
 
 
