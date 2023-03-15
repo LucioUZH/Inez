@@ -319,18 +319,28 @@ assumed the MakeCovMat function in Basta would align my 'id_2014' to its 'ID' va
 simply considered the ID variable, but it didnt link them in the end with the right covariates (super weird)! Somehow this random pattern did produce 
 slightly normal results, whereas now it doesnt... 
 
+15/03/23
+
+For the following categories:
+- Drinking (inclusive) > t-test for death/birth year and drinker yes/no are all significant BUT only in basta file where drinking/non drinking is separated
+- Drinking (conservative) > t-test for death/birth year and drinker yes/no are all significant BUT only in basta file where drinking/non drinking is separated
+- Drinking (kids < 4 = 0) > t-test for death/birth year and drinker yes/no are all significant (not checked, but assuming the same as up here)
+
+SO > there is a clear relationship between drinking and age, when we also include dead individuals. What does this mean?
+
+However, for child mortality:
+- Mother & child mortality > t-test for death/birth year and mother drinks heavy/light are all significant BUT only in basta file where drinking/non drinking is separated
+- Father & child mortality > t-test for death/birth year and father drinks heavy/light are all significant BUT only in basta file where drinking/non drinking is separated
+
+- Should we perform a model that includes age of father as well, to see if the different levels of drinking are still influential if corrected for age?
 
 
-
-
-
-
-
-
-
-
-
-
+column > death due to alcohol (not equal to drinker/non-drinker
+X Is it about mothers or is it about the households/sum? > heavy mother light father, heavy father light mother > make the distinction
+X Change the frequency level of father drinking > three or less also counts as light drinking > what happens
+- Apply point 2 to point 1
+- Predict nr of children by mother (dead or alive) by age and frequency level of drinking  > brms 
+- Alcohol frequency of mothers > is tehre a function of age? 
 
 
 
